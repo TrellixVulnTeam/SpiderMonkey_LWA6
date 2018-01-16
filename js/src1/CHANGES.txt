@@ -264,102 +264,109 @@ jit/arm64/vixl/Simulator-vixl.h                      ->         JIT/arm64/vixl/.
 jit/arm64/vixl/Utils-vixl.h                      ->         JIT/arm64/vixl/.h
 
 jit/mips32/Architecture-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/Assembler-mips32.h
-jit/mips32/Bailouts-mips32.h
-jit/mips32/BaselineCompiler-mips32.h
-jit/mips32/CodeGenerator-mips32.h
-jit/mips32/LIR-mips32.h
-jit/mips32/LOpcodes-mips32.h
-jit/mips32/Lowering-mips32.h
-jit/mips32/MacroAssembler-mips32.h
-jit/mips32/MacroAssembler-mips32-inl.h
-jit/mips32/MoveEmitter-mips32.h
-jit/mips32/SharedICRegisters-mips32.h
-jit/mips32/Simulator-mips32.h
-jit/mips64/Architecture-mips64.h
-jit/mips64/Assembler-mips64.h
-jit/mips64/Bailouts-mips64.h
-jit/mips64/BaselineCompiler-mips64.h
-jit/mips64/CodeGenerator-mips64.h
-jit/mips64/LIR-mips64.h
-jit/mips64/LOpcodes-mips64.h
-jit/mips64/Lowering-mips64.h
-jit/mips64/MacroAssembler-mips64.h
-jit/mips64/MacroAssembler-mips64-inl.h
-jit/mips64/MoveEmitter-mips64.h
-jit/mips64/SharedICRegisters-mips64.h
-jit/mips64/Simulator-mips64.h
-jit/mips-shared/Architecture-mips-shared.h
-jit/mips-shared/Assembler-mips-shared.h
-jit/mips-shared/AtomicOperations-mips-shared.h
-jit/mips-shared/BaselineCompiler-mips-shared.h
-jit/mips-shared/CodeGenerator-mips-shared.h
-jit/mips-shared/LIR-mips-shared.h
-jit/mips-shared/Lowering-mips-shared.h
-jit/mips-shared/MacroAssembler-mips-shared.h
-jit/mips-shared/MacroAssembler-mips-shared-inl.h
-jit/mips-shared/MoveEmitter-mips-shared.h
-jit/mips-shared/SharedICHelpers-mips-shared.h
-jit/none/Architecture-none.h
-jit/none/AtomicOperations-feeling-lucky.h
-jit/none/BaselineCompiler-none.h
-jit/none/CodeGenerator-none.h
-jit/none/LIR-none.h
-jit/none/LOpcodes-none.h
-jit/none/Lowering-none.h
-jit/none/MacroAssembler-none.h
-jit/none/MoveEmitter-none.h
-jit/none/SharedICHelpers-none.h
-jit/none/SharedICRegisters-none.h
-jit/shared/Architecture-shared.h
-jit/shared/Assembler-shared.h
-jit/shared/BaselineCompiler-shared.h
-jit/shared/CodeGenerator-shared.h
-jit/shared/CodeGenerator-shared-inl.h
-jit/shared/IonAssemblerBuffer.h
-jit/shared/IonAssemblerBufferWithConstantPools.h
-jit/shared/LIR-shared.h
-jit/shared/LOpcodes-shared.h
-jit/shared/Lowering-shared.h
-jit/shared/Lowering-shared-inl.h
-jit/x64/Assembler-x64.h
-jit/x64/BaseAssembler-x64.h
-jit/x64/BaselineCompiler-x64.h
-jit/x64/CodeGenerator-x64.h
-jit/x64/LIR-x64.h
-jit/x64/LOpcodes-x64.h
-jit/x64/Lowering-x64.h
-jit/x64/MacroAssembler-x64.h
-jit/x64/MacroAssembler-x64-inl.h
-jit/x64/SharedICHelpers-x64.h
-jit/x64/SharedICRegisters-x64.h
-jit/x86/Assembler-x86.h
-jit/x86/BaseAssembler-x86.h
-jit/x86/BaselineCompiler-x86.h
-jit/x86/CodeGenerator-x86.h
-jit/x86/LIR-x86.h
-jit/x86/LOpcodes-x86.h
-jit/x86/Lowering-x86.h
-jit/x86/MacroAssembler-x86.h
-jit/x86/MacroAssembler-x86-inl.h
-jit/x86/SharedICHelpers-x86.h
-jit/x86/SharedICRegisters-x86.h
-jit/x86-shared/Architecture-x86-shared.h
-jit/x86-shared/AssemblerBuffer-x86-shared.h
-jit/x86-shared/Assembler-x86-shared.h
-jit/x86-shared/AtomicOperations-x86-shared-gcc.h
-jit/x86-shared/AtomicOperations-x86-shared-msvc.h
-jit/x86-shared/BaseAssembler-x86-shared.h
-jit/x86-shared/BaselineCompiler-x86-shared.h
-jit/x86-shared/CodeGenerator-x86-shared.h
-jit/x86-shared/Constants-x86-shared.h
-jit/x86-shared/Encoding-x86-shared.h
-jit/x86-shared/LIR-x86-shared.h
-jit/x86-shared/Lowering-x86-shared.h
-jit/x86-shared/MacroAssembler-x86-shared.h
-jit/x86-shared/MacroAssembler-x86-shared-inl.h
-jit/x86-shared/MoveEmitter-x86-shared.h
-jit/x86-shared/Patching-x86-shared.h
+jit/mips32/Assembler-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/Bailouts-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/BaselineCompiler-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/CodeGenerator-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/LIR-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/LOpcodes-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/Lowering-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/MacroAssembler-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/MacroAssembler-mips32-inl.h                      ->         JIT/mips32/.h
+jit/mips32/MoveEmitter-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/SharedICRegisters-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/Simulator-mips32.h                      ->         JIT/mips32/.h
+
+jit/mips64/Architecture-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Assembler-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Bailouts-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/BaselineCompiler-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/CodeGenerator-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/LIR-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/LOpcodes-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Lowering-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/MacroAssembler-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/MacroAssembler-mips64-inl.h                      ->         JIT/mips64/.h
+jit/mips64/MoveEmitter-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/SharedICRegisters-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Simulator-mips64.h                      ->         JIT/mips64/.h
+
+jit/mips-shared/Architecture-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/Assembler-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/AtomicOperations-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/BaselineCompiler-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/CodeGenerator-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/LIR-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/Lowering-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/MacroAssembler-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/MacroAssembler-mips-shared-inl.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/MoveEmitter-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/SharedICHelpers-mips-shared.h                      ->         JIT/mips-shared/.h
+
+jit/none/Architecture-none.h                      ->         JIT/none/.h
+jit/none/AtomicOperations-feeling-lucky.h                      ->         JIT/none/.h
+jit/none/BaselineCompiler-none.h                      ->         JIT/none/.h
+jit/none/CodeGenerator-none.h                      ->         JIT/none/.h
+jit/none/LIR-none.h                      ->         JIT/none/.h
+jit/none/LOpcodes-none.h                      ->         JIT/none/.h
+jit/none/Lowering-none.h                      ->         JIT/none/.h
+jit/none/MacroAssembler-none.h                      ->         JIT/none/.h
+jit/none/MoveEmitter-none.h                      ->         JIT/none/.h
+jit/none/SharedICHelpers-none.h                      ->         JIT/none/.h
+jit/none/SharedICRegisters-none.h                      ->         JIT/none/.h
+
+jit/shared/Architecture-shared.h                      ->         JIT/shared/.h
+jit/shared/Assembler-shared.h                      ->         JIT/shared/.h
+jit/shared/BaselineCompiler-shared.h                      ->         JIT/shared/.h
+jit/shared/CodeGenerator-shared.h                      ->         JIT/shared/.h
+jit/shared/CodeGenerator-shared-inl.h                      ->         JIT/shared/.h
+jit/shared/IonAssemblerBuffer.h                      ->         JIT/shared/.h
+jit/shared/IonAssemblerBufferWithConstantPools.h                      ->         JIT/shared/.h
+jit/shared/LIR-shared.h                      ->         JIT/shared/.h
+jit/shared/LOpcodes-shared.h                      ->         JIT/shared/.h
+jit/shared/Lowering-shared.h                      ->         JIT/shared/.h
+jit/shared/Lowering-shared-inl.h                      ->         JIT/shared/.h
+
+jit/x64/Assembler-x64.h                      ->         JIT/x64/.h
+jit/x64/BaseAssembler-x64.h                      ->         JIT/x64/.h
+jit/x64/BaselineCompiler-x64.h                      ->         JIT/x64/.h
+jit/x64/CodeGenerator-x64.h                      ->         JIT/x64/.h
+jit/x64/LIR-x64.h                      ->         JIT/x64/.h
+jit/x64/LOpcodes-x64.h                      ->         JIT/x64/.h
+jit/x64/Lowering-x64.h                      ->         JIT/x64/.h
+jit/x64/MacroAssembler-x64.h                      ->         JIT/x64/.h
+jit/x64/MacroAssembler-x64-inl.h                      ->         JIT/x64/.h
+jit/x64/SharedICHelpers-x64.h                      ->         JIT/x64/.h
+jit/x64/SharedICRegisters-x64.h                      ->         JIT/x64/.h
+
+jit/x86/Assembler-x86.h                      ->         JIT/x86/.h
+jit/x86/BaseAssembler-x86.h                      ->         JIT/x86/.h
+jit/x86/BaselineCompiler-x86.h                      ->         JIT/x86/.h
+jit/x86/CodeGenerator-x86.h                      ->         JIT/x86/.h
+jit/x86/LIR-x86.h                      ->         JIT/x86/.h
+jit/x86/LOpcodes-x86.h                      ->         JIT/x86/.h
+jit/x86/Lowering-x86.h                      ->         JIT/x86/.h
+jit/x86/MacroAssembler-x86.h                      ->         JIT/x86/.h
+jit/x86/MacroAssembler-x86-inl.h                      ->         JIT/x86/.h
+jit/x86/SharedICHelpers-x86.h                      ->         JIT/x86/.h
+jit/x86/SharedICRegisters-x86.h                      ->         JIT/x86/.h
+
+jit/x86-shared/Architecture-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/AssemblerBuffer-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/Assembler-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/AtomicOperations-x86-shared-gcc.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/AtomicOperations-x86-shared-msvc.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/BaseAssembler-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/BaselineCompiler-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/CodeGenerator-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/Constants-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/Encoding-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/LIR-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/Lowering-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/MacroAssembler-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/MacroAssembler-x86-shared-inl.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/MoveEmitter-x86-shared.h                      ->         JIT/x86-shared/.h
+jit/x86-shared/Patching-x86-shared.h                      ->         JIT/x86-shared/.h
 
 jsapi-tests/tests.h
 jsapi-tests/testJitMinimalFunc.h
@@ -370,9 +377,9 @@ proxy/DeadObjectProxy.h
 proxy/Proxy.h
 proxy/ScriptedProxyHandler.h
 
-shell/jsoptparse.h
-shell/jsshell.h
-shell/OSObject.h
+shell/jsoptparse.h                      ->         Shell/.h
+shell/jsshell.h                      ->         Shell/.h
+shell/OSObject.h                      ->         Shell/.h
 
 threading/ConditionVariable.h
 threading/CpuCount.h
