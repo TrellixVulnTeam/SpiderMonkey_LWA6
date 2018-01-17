@@ -1204,3 +1204,170 @@ js/src/jsscript.cpp
 js/src/jsstr.cpp
 js/src/jsutil.cpp
 js/src/jsweakmap.cpp
+
+
+
+
+Code Directory Structure
+===================
+
+[Root]                                                   (Root directory of SpiderMonkey)
+|-- build                                                (Files needed in order to build the SpiderMonkey)
+|-- src
+     |-- backend                                         ()
+     |-- bytecode
+     |-- core
+     |-- docs                                            (SpiderMonkey documentations)
+     |-- ds                                              (Data structure utilities)
+     |-- gc
+     |-- jit
+     |-- library
+     |-- parser
+     |-- runtime                                          
+     |-- wasm                                            (Web WebAssembly implementation)
+     |-- JSApi.cpp  or JSBase.cpp                        (Api implementation or could be the entry point of SpiderMonkey engine.)
+
+
+
+
+build
+builtin                  JS Classes built in to the language. The .js files here are "self-hosted".
+ctypes                   An interface for JS to interact with C FFI (Not available to general browser contexts).
+devtools
+doc                      Debugger and JIT documentations.
+ds                       Data structure utilities.
+editline                 editline library for simple line-editing and history support for the standalone javascript engine.
+frontend                 The JS parser and spidermonkey bytecode generation.
+gc                       All things garbage collector related.
+gdb                      Helper code for gdb to interact.
+irregexp                 Regex processing code. Forked from Vs library.
+jit                      The Baseline and IonMonkey JITs and support code. Processor specific code should be in a subdirectory of this.
+jit-test                 JIT-related tests.
+jsapi-tests              Tests of the embedding API (JSAPI).
+octane                   The Octane js benchmark.
+perf                     Performance measurment.
+proxy                    Handling of JS Proxy objects.
+shell                    The support code for a standalone command line spider monkey.
+tests                    Language-related tests. "jsreftest".
+threading                Thread utils.
+vm                       The interpreter and core objects needed to execute JS.
+ Interpretter.cpp        The main loop of interpreter.
+ opcodes.h               The definition of the bytecode.
+vtune
+wasm                     WebAssembly.
+NamespaceImports.h
+README.html
+Y.js
+build.rs
+dtoa.c
+js-confdefs.h.in
+js-config.h.in
+js.msg
+jsalloc.cpp              JS memory allocations policy.
+jsalloc.h
+jsapi.cpp
+jsapi.h                  The embedding API main file.
+jsarray.cpp              Builtin JS arrays.
+jsarray.h
+jsarrayinlines.h
+jsast.tbl
+jsatom.cpp
+jsatom.h
+jsatominlines.h
+jsbool.cpp               JS boolean implementation.
+jsbool.h
+jsboolinlines.h
+jsbytecode.h
+jscntxt.cpp              JS execution context.
+jscntxt.h
+jscntxtinlines.h
+jscompartment.cpp
+jscompartment.h
+jscompartmentinlines.h
+jscpucfg.h
+jsdate.cpp               JS date methods.
+jsdate.h
+jsdtoa.cpp
+jsdtoa.h
+jsexn.cpp                JS standard exception implementation.
+jsexn.h                  JS runtime exception classes.
+jsfriendapi.cpp          Related to jsapi.h but changes frequently.
+jsfriendapi.h
+jsfun.cpp                Function implementation.
+jsfun.h
+jsfuninlines.h
+jsgc.cpp                 JS garbage collector implementation.
+jsgc.h
+jsgcinlines.h
+jshashutil.h             JS implementation of HashMap and HashSet.
+jsiter.cpp               JavaScript iterators.
+jsiter.h
+jslibmath.h
+jsmath.cpp               JS math methods.
+jsmath.h
+jsnativestack.cpp
+jsnativestack.h
+jsnspr.h
+jsnum.cpp                JS number type and wrapper class.
+jsnum.h
+jsobj.cpp                Implementation of core javascript object.
+jsobj.h
+jsobjinlines.h
+json.cpp
+json.h
+jsopcode.cpp             Bytecode descriptors, disassemblers, and (expression) decompilers.
+jsopcode.h
+jsopcodeinlines.h
+jsprf.cpp
+jsprf.h
+jsprototypes.h
+jspubtd.h
+jsscript.cpp             Scripts.
+jsscript.h
+jsscriptinlines.h
+jsshell.msg
+jsstr.cpp                Strings.
+jsstr.h
+jstypes.h
+jsutil.cpp
+jsutil.h
+jsversion.h
+jsweakmap.cpp
+jsweakmap.h
+jswin.h
+jswrapper.h
+lib.rs
+moz.build                The latest build system definition.
+
+
+
+
+[Root]                        (Introduction documentations, Jenkins scripts etc.) 
+|-- Lib 
+    |-- Common 
+        |-- Codex             (UTFconversion utilities) 
+        |-- Core              (Core supporting utilities) 
+        |-- Exceptions        (Exceptions classes and utilities) 
+        |-- DataStructures    (Link list, Dictionary, etc.) 
+        |-- Memory            (Memory management. Arena, GC, etc.) 
+        |-- Common            (Misc. supporting utilities) 
+    |-- Runtime 
+        |-- Base              (Depended on by the rest of the Runtime. 
+                               e.g. ScriptContext, ThreadContext)
+        |-- Types             (Type system) 
+        |-- ByteCode          (Byte code definition, generator and serializer) 
+        |-- Language          (Language implementation, e.g. interpreter loop 
+                               and operators supporting running of JavaScript) 
+        |-- Library           (JavaScript built in library implementation) 
+        |-- Debug             (Debugger support) 
+    |-- Parser                (JavaScript language and regex parser) 
+    |-- Backend               (JIT native code generator) 
+    |-- JSRT                  (JSRT API implementation)
+|-- Bin 
+    |-- ChakraCore            (Builds ChakraCore.dll) 
+    |-- ch                    (Chakra Host, simple host running JavaScript from a file) 
+    |-- rl                    (Unit test runner) 
+|-- Build                     (Supporting build configuration and scripts) 
+    |-- ... 
+|-- Test                      (Unit tests) 
+    |-- ...
