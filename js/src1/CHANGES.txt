@@ -1,471 +1,372 @@
-js/src/jsarray.h                   ->         Library/JSArray.h
-js/src/jsarrayinlines.h            ->         Library/JSArrayInline.h
-js/src/jsbool.h                    ->         Library/JSBool.h
-js/src/jsboolinlines.h             ->         Library/JSBoolInline.h
-js/src/jsdate.h                    ->         Library/JSDate.h
-js/src/jsfun.h                     ->         Library/JSFunction.h
-js/src/jsfuninlines.h              ->         Library/JSFunctionInline.h
-js/src/jsmath.h                    ->         Library/MathLibrary.h
-js/src/jsnum.h                     ->         Library/JSNumber.h
-js/src/jsobj.h                     ->         Library/JSObject.h
-js/src/jsobjinlines.h              ->         Library/JSObjectInline.h
-js/src/json.h                      ->         Library/JSON.h
-js/src/jsopcode.h                  ->         Backend/Opcodes.h
-js/src/jsopcodeinlines.h           ->         Backend/OpcodesInline.h
-js/src/jsprototypes.h              ->         Library/JSPrototypes.h
-js/src/jsscript.h                  ->         Runtime/JSScript.h
-js/src/jsscriptinlines.h           ->         Runtime/JSScriptInline.h
-js/src/jsstr.h                     ->         Library/JSString.h
-js/src/jsweakmap.h                 ->         Library/JSWeakMap.h
+js/src/jsarray.h                                  ->         Library/JSArray.h
+js/src/jsarrayinlines.h                           ->         Library/JSArrayInline.h
+js/src/jsbool.h                                   ->         Library/JSBool.h
+js/src/jsboolinlines.h                            ->         Library/JSBoolInline.h
+js/src/jsdate.h                                   ->         Library/JSDate.h
+js/src/jsfun.h                                    ->         Library/JSFunction.h
+js/src/jsfuninlines.h                             ->         Library/JSFunctionInline.h
+js/src/jsmath.h                                   ->         Library/MathLibrary.h
+js/src/jsnum.h                                    ->         Library/JSNumber.h
+js/src/jsobj.h                                    ->         Library/JSObject.h
+js/src/jsobjinlines.h                             ->         Library/JSObjectInline.h
+js/src/json.h                                     ->         Library/JSON.h
+js/src/jsopcode.h                                 ->         Backend/Opcodes.h
+js/src/jsopcodeinlines.h                          ->         Backend/OpcodesInline.h
+js/src/jsprototypes.h                             ->         Library/JSPrototypes.h
+js/src/jsscript.h                                 ->         Runtime/JSScript.h
+js/src/jsscriptinlines.h                          ->         Runtime/JSScriptInline.h
+js/src/jsstr.h                                    ->         Library/JSString.h
+js/src/jsweakmap.h                                ->         Library/JSWeakMap.h
 
-builtin/Intl.h                     ->         Runtime/Intl.h
-builtin/IntlTimeZoneData.h         ->         Runtime/IntlTimeZoneData.h
-builtin/MapObject.h                ->         Library/JSMap.h
-builtin/ModuleObject.h             ->         Library/ModuleObject.h
-builtin/Object.h                   ->         Library/JSObject.h
-builtin/Profilers.h                ->         Runtime/Profilers.h
-builtin/Promise.h                  ->         Library/JSPromise.h
-builtin/Reflect.h                  ->         Library/JSReflect.h
-builtin/RegExp.h                   ->         Library/JSRegex.h
-builtin/SIMD.h                     ->         Library/JSSIMD.h
-builtin/Stream.h                   ->         Parser/Stream.h
-builtin/SymbolObject.h             ->         Library/SymbolObject.h
-builtin/TypedObject.h              ->         Library/TypedObject.h
-builtin/TypedObjectConstant.h      ->         Library/TypedObjectConstant.h
-builtin/WeakMapObject.h            ->         Library/JSWeakMapObject.h
-builtin/WeakMapObject-inl.h        ->         Library/JSWeakMapObject-inl.h
-builtin/WeakSetObject.h            ->         Library/JSWeakSetObject.h
+builtin/Intl.h                                    ->         Runtime/Intl.h
+builtin/IntlTimeZoneData.h                        ->         Runtime/IntlTimeZoneData.h
+builtin/MapObject.h                               ->         Library/JSMap.h
+builtin/ModuleObject.h                            ->         Library/ModuleObject.h
+builtin/Object.h                                  ->         Library/JSObject.h
+builtin/Profilers.h                               ->         Runtime/Profilers.h
+builtin/Promise.h                                 ->         Library/JSPromise.h
+builtin/Reflect.h                                 ->         Library/JSReflect.h
+builtin/RegExp.h                                  ->         Library/JSRegex.h
+builtin/SIMD.h                                    ->         Library/JSSIMD.h
+builtin/Stream.h                                  ->         Parser/Stream.h
+builtin/SymbolObject.h                            ->         Library/SymbolObject.h
+builtin/TypedObject.h                             ->         Library/TypedObject.h
+builtin/TypedObjectConstant.h                     ->         Library/TypedObjectConstant.h
+builtin/WeakMapObject.h                           ->         Library/JSWeakMapObject.h
+builtin/WeakMapObject-inl.h                       ->         Library/JSWeakMapObject-inl.h
+builtin/WeakSetObject.h                           ->         Library/JSWeakSetObject.h
 
-ds/BitArray.h                            ->         DS/BitArray.h
-ds/Bitmap.h                              ->         DS/Bitmap.h
-ds/Fifo.h                                ->         DS/Fifo.h
-ds/FixedSizeHash.h                       ->         DS/FixedSizeHash.h
-ds/IdValuePair.h                         ->         DS/IdValuePair.h
-ds/LifoAlloc.h                           ->         DS/LifoAlloc.h
-ds/MemoryProtectionExceptionHandler.h    ->         DS/MemoryProtectionExceptionHandler.h     or    Exceptions/MemoryProtectionExceptionHandler.h
-ds/Nestable.h                            ->         DS/Nestable.h
-ds/OrderedHashTable.h                    ->         DS/OrderedHashTable.h
-ds/PageProtectingVector.h                ->         DS/PageProtectingVector.h
-ds/PriorityQueue.h                       ->         DS/PriorityQueue.h
-ds/Sort.h                                ->         DS/Sort.h
-ds/SplayTree.h                           ->         DS/SplayTree.h
-ds/TraceableFifo.h                       ->         DS/TraceableFifo.h
+ds/BitArray.h                                     ->         DS/BitArray.h
+ds/Bitmap.h                                       ->         DS/Bitmap.h
+ds/Fifo.h                                         ->         DS/Fifo.h
+ds/FixedSizeHash.h                                ->         DS/FixedSizeHash.h
+ds/IdValuePair.h                                  ->         DS/IdValuePair.h
+ds/LifoAlloc.h                                    ->         DS/LifoAlloc.h
+ds/MemoryProtectionExceptionHandler.h             ->         DS/MemoryProtectionExceptionHandler.h     or    Exceptions/MemoryProtectionExceptionHandler.h
+ds/Nestable.h                                     ->         DS/Nestable.h
+ds/OrderedHashTable.h                             ->         DS/OrderedHashTable.h
+ds/PageProtectingVector.h                         ->         DS/PageProtectingVector.h
+ds/PriorityQueue.h                                ->         DS/PriorityQueue.h
+ds/Sort.h                                         ->         DS/Sort.h
+ds/SplayTree.h                                    ->         DS/SplayTree.h
+ds/TraceableFifo.h                                ->         DS/TraceableFifo.h
 
-frontend/BytecodeCompiler.h              ->         Backend/BytecodeCompiler.h
-frontend/BytecodeEmitter.h               ->         ByteCode/BytecodeEmitter.h
-frontend/EitherParser.h                  ->         Parser/EitherParser.h
-frontend/ErrorReporter.h                 ->         Exceptions/ErrorReporter.h
-frontend/FoldConstants.h                 ->         Parser/FoldConstants.h
-frontend/FullParseHandler.h              ->         Parser/FullParseHandler.h
-frontend/LanguageExtensions.h            ->         Library/LanguageExtensions.h
-frontend/NameAnalysisTypes.h             ->         Parser/NameAnalysisTypes.h
-frontend/NameCollections.h               ->         Parser/NameCollections.h
-frontend/NameFunctions.h                 ->         Parser/NameFunctions.h
-frontend/ParseContext.h                  ->         Parser/ParserContext.h
-frontend/ParseNode.h                     ->         Parser/ParseNode.h
-frontend/ParseNode-inl.h                 ->         Parser/ParseNode-inl.h
-frontend/Parser.h                        ->         Parser/Parser.h
-frontend/ReservedWords.h                 ->         Parser/ReservedWords.h
-frontend/SharedContext.h                 ->         Parser/
-frontend/SyntaxParserHandler.h           ->         Parser/SyntaxParserHandler.h
-frontend/TokenKind.h                     ->         Parser/TokenKind.h
-frontend/TokenStream.h                   ->         Parser/TokenStream.h
+frontend/BytecodeCompiler.h                       ->         Backend/BytecodeCompiler.h
+frontend/BytecodeEmitter.h                        ->         ByteCode/BytecodeEmitter.h
+frontend/EitherParser.h                           ->         Parser/EitherParser.h
+frontend/ErrorReporter.h                          ->         Exceptions/ErrorReporter.h
+frontend/FoldConstants.h                          ->         Parser/FoldConstants.h
+frontend/FullParseHandler.h                       ->         Parser/FullParseHandler.h
+frontend/LanguageExtensions.h                     ->         Library/LanguageExtensions.h
+frontend/NameAnalysisTypes.h                      ->         Parser/NameAnalysisTypes.h
+frontend/NameCollections.h                        ->         Parser/NameCollections.h
+frontend/NameFunctions.h                          ->         Parser/NameFunctions.h
+frontend/ParseContext.h                           ->         Parser/ParserContext.h
+frontend/ParseNode.h                              ->         Parser/ParseNode.h
+frontend/ParseNode-inl.h                          ->         Parser/ParseNode-inl.h
+frontend/Parser.h                                 ->         Parser/Parser.h
+frontend/ReservedWords.h                          ->         Parser/ReservedWords.h
+frontend/SharedContext.h                          ->         Parser/
+frontend/SyntaxParserHandler.h                    ->         Parser/SyntaxParserHandler.h
+frontend/TokenKind.h                              ->         Parser/TokenKind.h
+frontend/TokenStream.h                            ->         Parser/TokenStream.h
 
-gc/Allocator.h                           ->         GC/Allocator.h
-gc/AllocKind.h                           ->         GC/AllocKind.h
-gc/AtomMarking.h                         ->         GC/AtomMarking.h
-gc/AtomMarking-inl.h                     ->         GC/AtomMarking-inl.h
-gc/Barrier.h                             ->         GC/Barrier.h
-gc/FindSCCs.h                            ->         GC/FindSCCs.h
-gc/GCInternals.h                         ->         GC/GCInternals.h
-gc/GCRuntime.h                           ->         GC/GCRuntime.h
-gc/GCTrace.h                             ->         GC/GCTrace.h
-gc/GCTraceFormat.h                       ->         GC/GCTraceFormat.h
-gc/Heap.h                                ->         GC/Heap.h
-gc/Heap-inl.h                            ->         GC/Heap-inl.h
-gc/Marking.h                             ->         GC/Marking.h
-gc/Memory.h                              ->         GC/Memory.h
-gc/Nursery.h                             ->         GC/Nursery.h
-gc/NurseryAwareHashMap.h                 ->         GC/NurseryAwareHashMap.h
-gc/Nursery-inl.h                         ->         GC/Nursery-inl.h
-gc/Policy.h                              ->         GC/Policy.h
-gc/RelocationOverlay.h                   ->         GC/RelocationOverlay.h
-gc/Rooting.h                             ->         GC/Rooting.h
-gc/Statistics.h                          ->         GC/Statistics.h
-gc/StoreBuffer.h                         ->         GC/StoreBuffer.h
-gc/StoreBuffer-inl.h                     ->         GC/StoreBuffer-inl.h
-gc/Tracer.h                              ->         GC/Tracer.h
-gc/Zone.h                                ->         GC/Zone.h
-gc/ZoneGroup.h                           ->         GC/ZoneGroup.h
+gc/Allocator.h                                    ->         GC/Allocator.h
+gc/AllocKind.h                                    ->         GC/AllocKind.h
+gc/AtomMarking.h                                  ->         GC/AtomMarking.h
+gc/AtomMarking-inl.h                              ->         GC/AtomMarking-inl.h
+gc/Barrier.h                                      ->         GC/Barrier.h
+gc/FindSCCs.h                                     ->         GC/FindSCCs.h
+gc/GCInternals.h                                  ->         GC/GCInternals.h
+gc/GCRuntime.h                                    ->         GC/GCRuntime.h
+gc/GCTrace.h                                      ->         GC/GCTrace.h
+gc/GCTraceFormat.h                                ->         GC/GCTraceFormat.h
+gc/Heap.h                                         ->         GC/Heap.h
+gc/Heap-inl.h                                     ->         GC/Heap-inl.h
+gc/Marking.h                                      ->         GC/Marking.h
+gc/Memory.h                                       ->         GC/Memory.h
+gc/Nursery.h                                      ->         GC/Nursery.h
+gc/NurseryAwareHashMap.h                          ->         GC/NurseryAwareHashMap.h
+gc/Nursery-inl.h                                  ->         GC/Nursery-inl.h
+gc/Policy.h                                       ->         GC/Policy.h
+gc/RelocationOverlay.h                            ->         GC/RelocationOverlay.h
+gc/Rooting.h                                      ->         GC/Rooting.h
+gc/Statistics.h                                   ->         GC/Statistics.h
+gc/StoreBuffer.h                                  ->         GC/StoreBuffer.h
+gc/StoreBuffer-inl.h                              ->         GC/StoreBuffer-inl.h
+gc/Tracer.h                                       ->         GC/Tracer.h
+gc/Zone.h                                         ->         GC/Zone.h
+gc/ZoneGroup.h                                    ->         GC/ZoneGroup.h
 
 gdb/gdb-tests.h
 
-irregexp/NativeRegExpMacroAssembler.h    ->         Parser/NativeRegExpMacroAssembler.h
-irregexp/RegExpAST.h                     ->         Parser/RegexAST.h
-irregexp/RegExpBytecode.h                ->         Bytecode/RegexBytcode.h
-irregexp/RegExpCharacters.h              ->         Parser/RegexCharacters.h
-irregexp/RegExpCharacters-inl.h          ->         Parser/RegexCharacters-inl.h
-irregexp/RegExpEngine.h                  ->         Parser/RegexEngine.h
-irregexp/RegExpMacroAssembler.h          ->         Parser/RegexMacroAssembler.h
-irregexp/RegExpParser.h                  ->         Parser/RegexParser.h
-irregexp/RegExpStack.h                   ->         Parser/RegexStack.h
+irregexp/NativeRegExpMacroAssembler.h             ->         Parser/NativeRegExpMacroAssembler.h
+irregexp/RegExpAST.h                              ->         Parser/RegexAST.h
+irregexp/RegExpBytecode.h                         ->         Bytecode/RegexBytcode.h
+irregexp/RegExpCharacters.h                       ->         Parser/RegexCharacters.h
+irregexp/RegExpCharacters-inl.h                   ->         Parser/RegexCharacters-inl.h
+irregexp/RegExpEngine.h                           ->         Parser/RegexEngine.h
+irregexp/RegExpMacroAssembler.h                   ->         Parser/RegexMacroAssembler.h
+irregexp/RegExpParser.h                           ->         Parser/RegexParser.h
+irregexp/RegExpStack.h                            ->         Parser/RegexStack.h
 
-jit/AliasAnalysis.h                      ->         JIT/.h
-jit/AliasAnalysisShared.h                ->         JIT/.h
-jit/AlignmentMaskAnalysis.h              ->         JIT/.h
-jit/AtomicOp.h                           ->         JIT/.h
-jit/AtomicOperations.h                   ->         JIT/.h
-jit/BacktrackingAllocator.h              ->         JIT/.h
-jit/Bailouts.h                           ->         JIT/.h
-jit/BaselineCacheIRCompiler.h            ->         JIT/.h
-jit/BaselineCompiler.h                   ->         JIT/.h
-jit/BaselineDebugModeOSR.h               ->         JIT/.h
-jit/BaselineFrame.h                      ->         JIT/.h
-jit/BaselineFrameInfo.h                  ->         JIT/.h
-jit/BaselineFrameInfo-inl.h              ->         JIT/.h
-jit/BaselineFrame-inl.h                  ->         JIT/.h
-jit/BaselineIC.h                         ->         JIT/.h
-jit/BaselineICList.h                     ->         JIT/.h
-jit/BaselineInspector.h                  ->         JIT/.h
-jit/BaselineJIT.h                        ->         JIT/.h
-jit/BitSet.h                             ->         JIT/.h
-jit/BytecodeAnalysis.h                   ->         JIT/.h
-jit/C1Spewer.h                           ->         JIT/.h
-jit/CacheIR.h                            ->         JIT/.h
-jit/CacheIRCompiler.h                    ->         JIT/.h
-jit/CacheIRSpewer.h                      ->         JIT/.h
-jit/CodeGenerator.h                      ->         JIT/.h
-jit/CompactBuffer.h                      ->         JIT/.h
-jit/CompileInfo.h                        ->         JIT/.h
-jit/CompileInfo-inl.h                    ->         JIT/.h
-jit/CompileWrappers.h                    ->         JIT/.h
-jit/Disassembler.h                       ->         JIT/.h
-jit/EagerSimdUnbox.h                     ->         JIT/.h
-jit/EdgeCaseAnalysis.h                   ->         JIT/.h
-jit/EffectiveAddressAnalysis.h           ->         JIT/.h
-jit/ExecutableAllocator.h                ->         JIT/.h
-jit/FixedList.h                          ->         JIT/.h
-jit/FlowAliasAnalysis.h                  ->         JIT/.h
-jit/FoldLinearArithConstants.h           ->         JIT/.h
-jit/ICState.h                            ->         JIT/.h
-jit/ICStubSpace.h                        ->         JIT/.h
-jit/InlinableNatives.h                   ->         JIT/.h
-jit/InlineList.h                         ->         JIT/.h
-jit/InstructionReordering.h              ->         JIT/.h
-jit/Ion.h                                ->         JIT/.h
-jit/IonAnalysis.h                        ->         JIT/.h
-jit/IonBuilder.h                         ->         JIT/.h
-jit/IonCode.h                            ->         JIT/.h
-jit/IonControlFlow.h                     ->         JIT/.h
-jit/IonIC.h                              ->         JIT/.h
-jit/IonInstrumentation.h                 ->         JIT/.h
-jit/IonOptimizationLevels.h              ->         JIT/.h
-jit/IonTypes.h                           ->         JIT/.h
-jit/Jit.h                                ->         JIT/.h
-jit/JitAllocPolicy.h                     ->         JIT/.h
-jit/JitcodeMap.h                         ->         JIT/.h
-jit/JitCommon.h                          ->         JIT/.h
-jit/JitCompartment.h                     ->         JIT/.h
-jit/JitFrames.h                          ->         JIT/.h
-jit/JitFrames-inl.h                      ->         JIT/.h
-jit/JitOptions.h                         ->         JIT/.h
-jit/JitSpewer.h                          ->         JIT/.h
-jit/JSJitFrameIter.h                     ->         JIT/.h
-jit/JSJitFrameIter-inl.h                 ->         JIT/.h
-jit/JSONSpewer.h                         ->         JIT/.h
-jit/Label.h                              ->         JIT/.h
-jit/LICM.h                               ->         JIT/.h
-jit/Linker.h                             ->         JIT/.h
-jit/LIR.h                                ->         JIT/.h
-jit/LoopUnroller.h                       ->         JIT/.h
-jit/LOpcodes.h                           ->         JIT/.h
-jit/Lowering.h                           ->         JIT/.h
-jit/MacroAssembler.h                     ->         JIT/.h
-jit/MacroAssembler-inl.h                 ->         JIT/.h
-jit/MIR.h                                ->         JIT/.h
-jit/MIRGenerator.h                       ->         JIT/.h
-jit/MIRGraph.h                           ->         JIT/.h
-jit/MOpcodes.h                           ->         JIT/.h
-jit/MoveEmitter.h                        ->         JIT/.h
-jit/MoveResolver.h                       ->         JIT/.h
-jit/OptimizationTracking.h               ->         JIT/.h
-jit/PcScriptCache.h                      ->         JIT/.h
-jit/PerfSpewer.h                         ->         JIT/.h
-jit/ProcessExecutableMemory.h            ->         JIT/.h
-jit/RangeAnalysis.h                      ->         JIT/.h
-jit/Recover.h                            ->         JIT/.h
-jit/RegisterAllocator.h                  ->         JIT/.h
-jit/Registers.h                          ->         JIT/.h
-jit/RegisterSets.h                       ->         JIT/.h
-jit/RematerializedFrame.h                ->         JIT/.h
-jit/Safepoints.h                         ->         JIT/.h
-jit/ScalarReplacement.h                  ->         JIT/.h
-jit/SharedIC.h                           ->         JIT/.h
-jit/SharedICHelpers.h                    ->         JIT/.h
-jit/SharedICList.h                       ->         JIT/.h
-jit/SharedICRegisters.h                  ->         JIT/.h
-jit/Sink.h                               ->         JIT/.h
-jit/Snapshots.h                          ->         JIT/.h
-jit/StackSlotAllocator.h                 ->         JIT/.h
-jit/StupidAllocator.h                    ->         JIT/.h
-jit/TypedObjectPrediction.h              ->         JIT/.h
-jit/TypePolicy.h                         ->         JIT/.h
-jit/ValueNumbering.h                     ->         JIT/.h
-jit/VMFunctions.h                        ->         JIT/.h
-jit/WasmBCE.h                            ->         JIT/.h
+jit/AliasAnalysis.h                               ->         JIT/.h
+jit/AliasAnalysisShared.h                         ->         JIT/.h
+jit/AlignmentMaskAnalysis.h                       ->         JIT/.h
+jit/AtomicOp.h                                    ->         JIT/.h
+jit/AtomicOperations.h                            ->         JIT/.h
+jit/BacktrackingAllocator.h                       ->         JIT/.h
+jit/Bailouts.h                                    ->         JIT/.h
+jit/BaselineCacheIRCompiler.h                     ->         JIT/.h
+jit/BaselineCompiler.h                            ->         JIT/.h
+jit/BaselineDebugModeOSR.h                        ->         JIT/.h
+jit/BaselineFrame.h                               ->         JIT/.h
+jit/BaselineFrameInfo.h                           ->         JIT/.h
+jit/BaselineFrameInfo-inl.h                       ->         JIT/.h
+jit/BaselineFrame-inl.h                           ->         JIT/.h
+jit/BaselineIC.h                                  ->         JIT/.h
+jit/BaselineICList.h                              ->         JIT/.h
+jit/BaselineInspector.h                           ->         JIT/.h
+jit/BaselineJIT.h                                 ->         JIT/.h
+jit/BitSet.h                                      ->         JIT/.h
+jit/BytecodeAnalysis.h                            ->         JIT/.h
+jit/C1Spewer.h                                    ->         JIT/.h
+jit/CacheIR.h                                     ->         JIT/.h
+jit/CacheIRCompiler.h                             ->         JIT/.h
+jit/CacheIRSpewer.h                               ->         JIT/.h
+jit/CodeGenerator.h                               ->         JIT/.h
+jit/CompactBuffer.h                               ->         JIT/.h
+jit/CompileInfo.h                                 ->         JIT/.h
+jit/CompileInfo-inl.h                             ->         JIT/.h
+jit/CompileWrappers.h                             ->         JIT/.h
+jit/Disassembler.h                                ->         JIT/.h
+jit/EagerSimdUnbox.h                              ->         JIT/.h
+jit/EdgeCaseAnalysis.h                            ->         JIT/.h
+jit/EffectiveAddressAnalysis.h                    ->         JIT/.h
+jit/ExecutableAllocator.h                         ->         JIT/.h
+jit/FixedList.h                                   ->         JIT/.h
+jit/FlowAliasAnalysis.h                           ->         JIT/.h
+jit/FoldLinearArithConstants.h                    ->         JIT/.h
+jit/ICState.h                                     ->         JIT/.h
+jit/ICStubSpace.h                                 ->         JIT/.h
+jit/InlinableNatives.h                            ->         JIT/.h
+jit/InlineList.h                                  ->         JIT/.h
+jit/InstructionReordering.h                       ->         JIT/.h
+jit/Ion.h                                         ->         JIT/.h
+jit/IonAnalysis.h                                 ->         JIT/.h
+jit/IonBuilder.h                                  ->         JIT/.h
+jit/IonCode.h                                     ->         JIT/.h
+jit/IonControlFlow.h                              ->         JIT/.h
+jit/IonIC.h                                       ->         JIT/.h
+jit/IonInstrumentation.h                          ->         JIT/.h
+jit/IonOptimizationLevels.h                       ->         JIT/.h
+jit/IonTypes.h                                    ->         JIT/.h
+jit/Jit.h                                         ->         JIT/.h
+jit/JitAllocPolicy.h                              ->         JIT/.h
+jit/JitcodeMap.h                                  ->         JIT/.h
+jit/JitCommon.h                                   ->         JIT/.h
+jit/JitCompartment.h                              ->         JIT/.h
+jit/JitFrames.h                                   ->         JIT/.h
+jit/JitFrames-inl.h                               ->         JIT/.h
+jit/JitOptions.h                                  ->         JIT/.h
+jit/JitSpewer.h                                   ->         JIT/.h
+jit/JSJitFrameIter.h                              ->         JIT/.h
+jit/JSJitFrameIter-inl.h                          ->         JIT/.h
+jit/JSONSpewer.h                                  ->         JIT/.h
+jit/Label.h                                       ->         JIT/.h
+jit/LICM.h                                        ->         JIT/.h
+jit/Linker.h                                      ->         JIT/.h
+jit/LIR.h                                         ->         JIT/.h
+jit/LoopUnroller.h                                ->         JIT/.h
+jit/LOpcodes.h                                    ->         JIT/.h
+jit/Lowering.h                                    ->         JIT/.h
+jit/MacroAssembler.h                              ->         JIT/.h
+jit/MacroAssembler-inl.h                          ->         JIT/.h
+jit/MIR.h                                         ->         JIT/.h
+jit/MIRGenerator.h                                ->         JIT/.h
+jit/MIRGraph.h                                    ->         JIT/.h
+jit/MOpcodes.h                                    ->         JIT/.h
+jit/MoveEmitter.h                                 ->         JIT/.h
+jit/MoveResolver.h                                ->         JIT/.h
+jit/OptimizationTracking.h                        ->         JIT/.h
+jit/PcScriptCache.h                               ->         JIT/.h
+jit/PerfSpewer.h                                  ->         JIT/.h
+jit/ProcessExecutableMemory.h                     ->         JIT/.h
+jit/RangeAnalysis.h                               ->         JIT/.h
+jit/Recover.h                                     ->         JIT/.h
+jit/RegisterAllocator.h                           ->         JIT/.h
+jit/Registers.h                                   ->         JIT/.h
+jit/RegisterSets.h                                ->         JIT/.h
+jit/RematerializedFrame.h                         ->         JIT/.h
+jit/Safepoints.h                                  ->         JIT/.h
+jit/ScalarReplacement.h                           ->         JIT/.h
+jit/SharedIC.h                                    ->         JIT/.h
+jit/SharedICHelpers.h                             ->         JIT/.h
+jit/SharedICList.h                                ->         JIT/.h
+jit/SharedICRegisters.h                           ->         JIT/.h
+jit/Sink.h                                        ->         JIT/.h
+jit/Snapshots.h                                   ->         JIT/.h
+jit/StackSlotAllocator.h                          ->         JIT/.h
+jit/StupidAllocator.h                             ->         JIT/.h
+jit/TypedObjectPrediction.h                       ->         JIT/.h
+jit/TypePolicy.h                                  ->         JIT/.h
+jit/ValueNumbering.h                              ->         JIT/.h
+jit/VMFunctions.h                                 ->         JIT/.h
+jit/WasmBCE.h                                     ->         JIT/.h
 
-jit/arm/Architecture-arm.h                      ->         JIT/arm/.h
-jit/arm/Assembler-arm.h                      ->         JIT/arm/.h
-jit/arm/AtomicOperations-arm.h                      ->         JIT/arm/.h
-jit/arm/BaselineCompiler-arm.h                      ->         JIT/arm/.h
-jit/arm/CodeGenerator-arm.h                      ->         JIT/arm/.h
-jit/arm/LIR-arm.h                      ->         JIT/arm/.h
-jit/arm/LOpcodes-arm.h                      ->         JIT/arm/.h
-jit/arm/Lowering-arm.h                      ->         JIT/arm/.h
+jit/arm/Architecture-arm.h                        ->         JIT/arm/.h
+jit/arm/Assembler-arm.h                           ->         JIT/arm/.h
+jit/arm/AtomicOperations-arm.h                    ->         JIT/arm/.h
+jit/arm/BaselineCompiler-arm.h                    ->         JIT/arm/.h
+jit/arm/CodeGenerator-arm.h                       ->         JIT/arm/.h
+jit/arm/LIR-arm.h                                 ->         JIT/arm/.h
+jit/arm/LOpcodes-arm.h                            ->         JIT/arm/.h
+jit/arm/Lowering-arm.h                            ->         JIT/arm/.h
 jit/arm/MacroAssembler-arm.h                      ->         JIT/arm/.h
-jit/arm/MacroAssembler-arm-inl.h                      ->         JIT/arm/.h
-jit/arm/MoveEmitter-arm.h                      ->         JIT/arm/.h
-jit/arm/SharedICHelpers-arm.h                      ->         JIT/arm/.h
-jit/arm/SharedICRegisters-arm.h                      ->         JIT/arm/.h
-jit/arm/Simulator-arm.h                      ->         JIT/arm/.h
-jit/arm/disasm/Constants-arm.h                      ->         JIT/arm/.h
-jit/arm/disasm/Disasm-arm.h                      ->         JIT/arm/.h
-jit/arm/llvm-compiler-rt/assembly.h                      ->         JIT/arm/.h
+jit/arm/MacroAssembler-arm-inl.h                  ->         JIT/arm/.h
+jit/arm/MoveEmitter-arm.h                         ->         JIT/arm/.h
+jit/arm/SharedICHelpers-arm.h                     ->         JIT/arm/.h
+jit/arm/SharedICRegisters-arm.h                   ->         JIT/arm/.h
+jit/arm/Simulator-arm.h                           ->         JIT/arm/.h
+jit/arm/disasm/Constants-arm.h                    ->         JIT/arm/.h
+jit/arm/disasm/Disasm-arm.h                       ->         JIT/arm/.h
+jit/arm/llvm-compiler-rt/assembly.h               ->         JIT/arm/.h
 
-jit/arm64/Architecture-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/Assembler-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/AtomicOperations-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/BaselineCompiler-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/CodeGenerator-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/LIR-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/LOpcodes-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/Lowering-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/MacroAssembler-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/MacroAssembler-arm64-inl.h                      ->         JIT/arm64/.h
+jit/arm64/Architecture-arm64.h                     ->         JIT/arm64/.h
+jit/arm64/Assembler-arm64.h                        ->         JIT/arm64/.h
+jit/arm64/AtomicOperations-arm64.h                 ->         JIT/arm64/.h
+jit/arm64/BaselineCompiler-arm64.h                 ->         JIT/arm64/.h
+jit/arm64/CodeGenerator-arm64.h                    ->         JIT/arm64/.h
+jit/arm64/LIR-arm64.h                              ->         JIT/arm64/.h
+jit/arm64/LOpcodes-arm64.h                         ->         JIT/arm64/.h
+jit/arm64/Lowering-arm64.h                         ->         JIT/arm64/.h
+jit/arm64/MacroAssembler-arm64.h                   ->         JIT/arm64/.h
+jit/arm64/MacroAssembler-arm64-inl.h               ->         JIT/arm64/.h
 jit/arm64/MoveEmitter-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/SharedICHelpers-arm64.h                      ->         JIT/arm64/.h
-jit/arm64/SharedICRegisters-arm64.h                      ->         JIT/arm64/.h
+jit/arm64/SharedICHelpers-arm64.h                  ->         JIT/arm64/.h
+jit/arm64/SharedICRegisters-arm64.h                ->         JIT/arm64/.h
 
-jit/arm64/vixl/Assembler-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/CompilerIntrinsics-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Constants-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Cpu-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Debugger-vixl.h                      ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Assembler-vixl.h                    ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/CompilerIntrinsics-vixl.h           ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Constants-vixl.h                    ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Cpu-vixl.h                          ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Debugger-vixl.h                     ->         JIT/arm64/vixl/.h
 jit/arm64/vixl/Decoder-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Disasm-vixl.h                      ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Disasm-vixl.h                       ->         JIT/arm64/vixl/.h
 jit/arm64/vixl/Globals-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Instructions-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Instrument-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/MacroAssembler-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/MozBaseAssembler-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Platform-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Simulator-Constants-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Simulator-vixl.h                      ->         JIT/arm64/vixl/.h
-jit/arm64/vixl/Utils-vixl.h                      ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Instructions-vixl.h                 ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Instrument-vixl.h                   ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/MacroAssembler-vixl.h               ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/MozBaseAssembler-vixl.h             ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Platform-vixl.h                     ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Simulator-Constants-vixl.h          ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Simulator-vixl.h                    ->         JIT/arm64/vixl/.h
+jit/arm64/vixl/Utils-vixl.h                        ->         JIT/arm64/vixl/.h
 
-jit/mips32/Architecture-mips32.h                      ->         JIT/mips32/.h
-<<<<<<< HEAD
+jit/mips32/Architecture-mips32.h                   ->         JIT/mips32/.h
 jit/mips32/Assembler-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/Bailouts-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/BaselineCompiler-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/CodeGenerator-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/LIR-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/LOpcodes-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/Lowering-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/MacroAssembler-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/MacroAssembler-mips32-inl.h                      ->         JIT/mips32/.h
-jit/mips32/MoveEmitter-mips32.h                      ->         JIT/mips32/.h
-jit/mips32/SharedICRegisters-mips32.h                      ->         JIT/mips32/.h
+jit/mips32/Bailouts-mips32.h                       ->         JIT/mips32/.h
+jit/mips32/BaselineCompiler-mips32.h               ->         JIT/mips32/.h
+jit/mips32/CodeGenerator-mips32.h                  ->         JIT/mips32/.h
+jit/mips32/LIR-mips32.h                            ->         JIT/mips32/.h
+jit/mips32/LOpcodes-mips32.h                       ->         JIT/mips32/.h
+jit/mips32/Lowering-mips32.h                       ->         JIT/mips32/.h
+jit/mips32/MacroAssembler-mips32.h                 ->         JIT/mips32/.h
+jit/mips32/MacroAssembler-mips32-inl.h             ->         JIT/mips32/.h
+jit/mips32/MoveEmitter-mips32.h                    ->         JIT/mips32/.h
+jit/mips32/SharedICRegisters-mips32.h              ->         JIT/mips32/.h
 jit/mips32/Simulator-mips32.h                      ->         JIT/mips32/.h
 
-jit/mips64/Architecture-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Architecture-mips64.h                   ->         JIT/mips64/.h
 jit/mips64/Assembler-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/Bailouts-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/BaselineCompiler-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/CodeGenerator-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/LIR-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/LOpcodes-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/Lowering-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/MacroAssembler-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/MacroAssembler-mips64-inl.h                      ->         JIT/mips64/.h
-jit/mips64/MoveEmitter-mips64.h                      ->         JIT/mips64/.h
-jit/mips64/SharedICRegisters-mips64.h                      ->         JIT/mips64/.h
+jit/mips64/Bailouts-mips64.h                       ->         JIT/mips64/.h
+jit/mips64/BaselineCompiler-mips64.h               ->         JIT/mips64/.h
+jit/mips64/CodeGenerator-mips64.h                  ->         JIT/mips64/.h
+jit/mips64/LIR-mips64.h                            ->         JIT/mips64/.h
+jit/mips64/LOpcodes-mips64.h                       ->         JIT/mips64/.h
+jit/mips64/Lowering-mips64.h                       ->         JIT/mips64/.h
+jit/mips64/MacroAssembler-mips64.h                 ->         JIT/mips64/.h
+jit/mips64/MacroAssembler-mips64-inl.h             ->         JIT/mips64/.h
+jit/mips64/MoveEmitter-mips64.h                    ->         JIT/mips64/.h
+jit/mips64/SharedICRegisters-mips64.h              ->         JIT/mips64/.h
 jit/mips64/Simulator-mips64.h                      ->         JIT/mips64/.h
 
-jit/mips-shared/Architecture-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/Assembler-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/AtomicOperations-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/BaselineCompiler-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/CodeGenerator-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/LIR-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/Lowering-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/MacroAssembler-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/MacroAssembler-mips-shared-inl.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/MoveEmitter-mips-shared.h                      ->         JIT/mips-shared/.h
-jit/mips-shared/SharedICHelpers-mips-shared.h                      ->         JIT/mips-shared/.h
+jit/mips-shared/Architecture-mips-shared.h         ->         JIT/mips-shared/.h
+jit/mips-shared/Assembler-mips-shared.h            ->         JIT/mips-shared/.h
+jit/mips-shared/AtomicOperations-mips-shared.h     ->         JIT/mips-shared/.h
+jit/mips-shared/BaselineCompiler-mips-shared.h     ->         JIT/mips-shared/.h
+jit/mips-shared/CodeGenerator-mips-shared.h        ->         JIT/mips-shared/.h
+jit/mips-shared/LIR-mips-shared.h                  ->         JIT/mips-shared/.h
+jit/mips-shared/Lowering-mips-shared.h             ->         JIT/mips-shared/.h
+jit/mips-shared/MacroAssembler-mips-shared.h       ->         JIT/mips-shared/.h
+jit/mips-shared/MacroAssembler-mips-shared-inl.h   ->         JIT/mips-shared/.h
+jit/mips-shared/MoveEmitter-mips-shared.h          ->         JIT/mips-shared/.h
+jit/mips-shared/SharedICHelpers-mips-shared.h      ->         JIT/mips-shared/.h
 
-jit/none/Architecture-none.h                      ->         JIT/none/.h
-jit/none/AtomicOperations-feeling-lucky.h                      ->         JIT/none/.h
-jit/none/BaselineCompiler-none.h                      ->         JIT/none/.h
+jit/none/Architecture-none.h                       ->         JIT/none/.h
+jit/none/AtomicOperations-feeling-lucky.h          ->         JIT/none/.h
+jit/none/BaselineCompiler-none.h                   ->         JIT/none/.h
 jit/none/CodeGenerator-none.h                      ->         JIT/none/.h
-jit/none/LIR-none.h                      ->         JIT/none/.h
-jit/none/LOpcodes-none.h                      ->         JIT/none/.h
-jit/none/Lowering-none.h                      ->         JIT/none/.h
-jit/none/MacroAssembler-none.h                      ->         JIT/none/.h
-jit/none/MoveEmitter-none.h                      ->         JIT/none/.h
-jit/none/SharedICHelpers-none.h                      ->         JIT/none/.h
-jit/none/SharedICRegisters-none.h                      ->         JIT/none/.h
+jit/none/LIR-none.h                                ->         JIT/none/.h
+jit/none/LOpcodes-none.h                           ->         JIT/none/.h
+jit/none/Lowering-none.h                           ->         JIT/none/.h
+jit/none/MacroAssembler-none.h                     ->         JIT/none/.h
+jit/none/MoveEmitter-none.h                        ->         JIT/none/.h
+jit/none/SharedICHelpers-none.h                    ->         JIT/none/.h
+jit/none/SharedICRegisters-none.h                  ->         JIT/none/.h
 
-jit/shared/Architecture-shared.h                      ->         JIT/shared/.h
+jit/shared/Architecture-shared.h                   ->         JIT/shared/.h
 jit/shared/Assembler-shared.h                      ->         JIT/shared/.h
-jit/shared/BaselineCompiler-shared.h                      ->         JIT/shared/.h
-jit/shared/CodeGenerator-shared.h                      ->         JIT/shared/.h
-jit/shared/CodeGenerator-shared-inl.h                      ->         JIT/shared/.h
-jit/shared/IonAssemblerBuffer.h                      ->         JIT/shared/.h
-jit/shared/IonAssemblerBufferWithConstantPools.h                      ->         JIT/shared/.h
-jit/shared/LIR-shared.h                      ->         JIT/shared/.h
-jit/shared/LOpcodes-shared.h                      ->         JIT/shared/.h
-jit/shared/Lowering-shared.h                      ->         JIT/shared/.h
-jit/shared/Lowering-shared-inl.h                      ->         JIT/shared/.h
+jit/shared/BaselineCompiler-shared.h               ->         JIT/shared/.h
+jit/shared/CodeGenerator-shared.h                  ->         JIT/shared/.h
+jit/shared/CodeGenerator-shared-inl.h              ->         JIT/shared/.h
+jit/shared/IonAssemblerBuffer.h                    ->         JIT/shared/.h
+jit/shared/IonAssemblerBufferWithConstantPools.h   ->         JIT/shared/.h
+jit/shared/LIR-shared.h                            ->         JIT/shared/.h
+jit/shared/LOpcodes-shared.h                       ->         JIT/shared/.h
+jit/shared/Lowering-shared.h                       ->         JIT/shared/.h
+jit/shared/Lowering-shared-inl.h                   ->         JIT/shared/.h
 
-jit/x64/Assembler-x64.h                      ->         JIT/x64/.h
-jit/x64/BaseAssembler-x64.h                      ->         JIT/x64/.h
-jit/x64/BaselineCompiler-x64.h                      ->         JIT/x64/.h
-jit/x64/CodeGenerator-x64.h                      ->         JIT/x64/.h
-jit/x64/LIR-x64.h                      ->         JIT/x64/.h
-jit/x64/LOpcodes-x64.h                      ->         JIT/x64/.h
-jit/x64/Lowering-x64.h                      ->         JIT/x64/.h
-jit/x64/MacroAssembler-x64.h                      ->         JIT/x64/.h
-jit/x64/MacroAssembler-x64-inl.h                      ->         JIT/x64/.h
+jit/x64/Assembler-x64.h                            ->         JIT/x64/.h
+jit/x64/BaseAssembler-x64.h                        ->         JIT/x64/.h
+jit/x64/BaselineCompiler-x64.h                     ->         JIT/x64/.h
+jit/x64/CodeGenerator-x64.h                        ->         JIT/x64/.h
+jit/x64/LIR-x64.h                                  ->         JIT/x64/.h
+jit/x64/LOpcodes-x64.h                             ->         JIT/x64/.h
+jit/x64/Lowering-x64.h                             ->         JIT/x64/.h
+jit/x64/MacroAssembler-x64.h                       ->         JIT/x64/.h
+jit/x64/MacroAssembler-x64-inl.h                   ->         JIT/x64/.h
 jit/x64/SharedICHelpers-x64.h                      ->         JIT/x64/.h
-jit/x64/SharedICRegisters-x64.h                      ->         JIT/x64/.h
+jit/x64/SharedICRegisters-x64.h                    ->         JIT/x64/.h
 
-jit/x86/Assembler-x86.h                      ->         JIT/x86/.h
-jit/x86/BaseAssembler-x86.h                      ->         JIT/x86/.h
-jit/x86/BaselineCompiler-x86.h                      ->         JIT/x86/.h
-jit/x86/CodeGenerator-x86.h                      ->         JIT/x86/.h
-jit/x86/LIR-x86.h                      ->         JIT/x86/.h
-jit/x86/LOpcodes-x86.h                      ->         JIT/x86/.h
-jit/x86/Lowering-x86.h                      ->         JIT/x86/.h
-jit/x86/MacroAssembler-x86.h                      ->         JIT/x86/.h
-jit/x86/MacroAssembler-x86-inl.h                      ->         JIT/x86/.h
+jit/x86/Assembler-x86.h                            ->         JIT/x86/.h
+jit/x86/BaseAssembler-x86.h                        ->         JIT/x86/.h
+jit/x86/BaselineCompiler-x86.h                     ->         JIT/x86/.h
+jit/x86/CodeGenerator-x86.h                        ->         JIT/x86/.h
+jit/x86/LIR-x86.h                                  ->         JIT/x86/.h
+jit/x86/LOpcodes-x86.h                             ->         JIT/x86/.h
+jit/x86/Lowering-x86.h                             ->         JIT/x86/.h
+jit/x86/MacroAssembler-x86.h                       ->         JIT/x86/.h
+jit/x86/MacroAssembler-x86-inl.h                   ->         JIT/x86/.h
 jit/x86/SharedICHelpers-x86.h                      ->         JIT/x86/.h
-jit/x86/SharedICRegisters-x86.h                      ->         JIT/x86/.h
+jit/x86/SharedICRegisters-x86.h                    ->         JIT/x86/.h
 
-jit/x86-shared/Architecture-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/AssemblerBuffer-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/Assembler-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/AtomicOperations-x86-shared-gcc.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/AtomicOperations-x86-shared-msvc.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/BaseAssembler-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/BaselineCompiler-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/CodeGenerator-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/Constants-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/Encoding-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/LIR-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/Lowering-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/MacroAssembler-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/MacroAssembler-x86-shared-inl.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/MoveEmitter-x86-shared.h                      ->         JIT/x86-shared/.h
-jit/x86-shared/Patching-x86-shared.h                      ->         JIT/x86-shared/.h
-=======
-jit/mips32/Assembler-mips32.h
-jit/mips32/Bailouts-mips32.h
-jit/mips32/BaselineCompiler-mips32.h
-jit/mips32/CodeGenerator-mips32.h
-jit/mips32/LIR-mips32.h
-jit/mips32/LOpcodes-mips32.h
-jit/mips32/Lowering-mips32.h
-jit/mips32/MacroAssembler-mips32.h
-jit/mips32/MacroAssembler-mips32-inl.h
-jit/mips32/MoveEmitter-mips32.h
-jit/mips32/SharedICRegisters-mips32.h
-jit/mips32/Simulator-mips32.h
-jit/mips64/Architecture-mips64.h
-jit/mips64/Assembler-mips64.h
-jit/mips64/Bailouts-mips64.h
-jit/mips64/BaselineCompiler-mips64.h
-jit/mips64/CodeGenerator-mips64.h
-jit/mips64/LIR-mips64.h
-jit/mips64/LOpcodes-mips64.h
-jit/mips64/Lowering-mips64.h
-jit/mips64/MacroAssembler-mips64.h
-jit/mips64/MacroAssembler-mips64-inl.h
-jit/mips64/MoveEmitter-mips64.h
-jit/mips64/SharedICRegisters-mips64.h
-jit/mips64/Simulator-mips64.h
-jit/mips-shared/Architecture-mips-shared.h
-jit/mips-shared/Assembler-mips-shared.h
-jit/mips-shared/AtomicOperations-mips-shared.h
-jit/mips-shared/BaselineCompiler-mips-shared.h
-jit/mips-shared/CodeGenerator-mips-shared.h
-jit/mips-shared/LIR-mips-shared.h
-jit/mips-shared/Lowering-mips-shared.h
-jit/mips-shared/MacroAssembler-mips-shared.h
-jit/mips-shared/MacroAssembler-mips-shared-inl.h
-jit/mips-shared/MoveEmitter-mips-shared.h
-jit/mips-shared/SharedICHelpers-mips-shared.h
-jit/none/Architecture-none.h
-jit/none/AtomicOperations-feeling-lucky.h
-jit/none/BaselineCompiler-none.h
-jit/none/CodeGenerator-none.h
-jit/none/LIR-none.h
-jit/none/LOpcodes-none.h
-jit/none/Lowering-none.h
-jit/none/MacroAssembler-none.h
-jit/none/MoveEmitter-none.h
-jit/none/SharedICHelpers-none.h
-jit/none/SharedICRegisters-none.h
-jit/shared/Architecture-shared.h
-jit/shared/Assembler-shared.h
-jit/shared/BaselineCompiler-shared.h
-jit/shared/CodeGenerator-shared.h
-jit/shared/CodeGenerator-shared-inl.h
-jit/shared/IonAssemblerBuffer.h
-jit/shared/IonAssemblerBufferWithConstantPools.h
-jit/shared/LIR-shared.h
-jit/shared/LOpcodes-shared.h
-jit/shared/Lowering-shared.h
-jit/shared/Lowering-shared-inl.h
-jit/x64/Assembler-x64.h
-jit/x64/BaseAssembler-x64.h
-jit/x64/BaselineCompiler-x64.h
-jit/x64/CodeGenerator-x64.h
-jit/x64/LIR-x64.h
-jit/x64/LOpcodes-x64.h
-jit/x64/Lowering-x64.h
-jit/x64/MacroAssembler-x64.h
-jit/x64/MacroAssembler-x64-inl.h
-jit/x64/SharedICHelpers-x64.h
-jit/x64/SharedICRegisters-x64.h
-jit/x86/Assembler-x86.h
-jit/x86/BaseAssembler-x86.h
-jit/x86/BaselineCompiler-x86.h
-jit/x86/CodeGenerator-x86.h
-jit/x86/LIR-x86.h
-jit/x86/LOpcodes-x86.h
-jit/x86/Lowering-x86.h
-jit/x86/MacroAssembler-x86.h
-jit/x86/MacroAssembler-x86-inl.h
-jit/x86/SharedICHelpers-x86.h
-jit/x86/SharedICRegisters-x86.h
-jit/x86-shared/Architecture-x86-shared.h
-jit/x86-shared/AssemblerBuffer-x86-shared.h
-jit/x86-shared/Assembler-x86-shared.h
-jit/x86-shared/AtomicOperations-x86-shared-gcc.h
-jit/x86-shared/AtomicOperations-x86-shared-msvc.h
-jit/x86-shared/BaseAssembler-x86-shared.h
-jit/x86-shared/BaselineCompiler-x86-shared.h
-jit/x86-shared/CodeGenerator-x86-shared.h
-jit/x86-shared/Constants-x86-shared.h
-jit/x86-shared/Encoding-x86-shared.h
-jit/x86-shared/LIR-x86-shared.h
-jit/x86-shared/Lowering-x86-shared.h
-jit/x86-shared/MacroAssembler-x86-shared.h
-jit/x86-shared/MacroAssembler-x86-shared-inl.h
-jit/x86-shared/MoveEmitter-x86-shared.h
-jit/x86-shared/Patching-x86-shared.h
->>>>>>> e5a5e178928009cfa1905a01fded154f87aca4f0
+jit/x86-shared/Architecture-x86-shared.h           ->         JIT/x86-shared/.h
+jit/x86-shared/AssemblerBuffer-x86-shared.h        ->         JIT/x86-shared/.h
+jit/x86-shared/Assembler-x86-shared.h              ->         JIT/x86-shared/.h
+jit/x86-shared/AtomicOperations-x86-shared-gcc.h   ->         JIT/x86-shared/.h
+jit/x86-shared/AtomicOperations-x86-shared-msvc.h  ->         JIT/x86-shared/.h
+jit/x86-shared/BaseAssembler-x86-shared.h          ->         JIT/x86-shared/.h
+jit/x86-shared/BaselineCompiler-x86-shared.h       ->         JIT/x86-shared/.h
+jit/x86-shared/CodeGenerator-x86-shared.h          ->         JIT/x86-shared/.h
+jit/x86-shared/Constants-x86-shared.h              ->         JIT/x86-shared/.h
+jit/x86-shared/Encoding-x86-shared.h               ->         JIT/x86-shared/.h
+jit/x86-shared/LIR-x86-shared.h                    ->         JIT/x86-shared/.h
+jit/x86-shared/Lowering-x86-shared.h               ->         JIT/x86-shared/.h
+jit/x86-shared/MacroAssembler-x86-shared.h         ->         JIT/x86-shared/.h
+jit/x86-shared/MacroAssembler-x86-shared-inl.h     ->         JIT/x86-shared/.h
+jit/x86-shared/MoveEmitter-x86-shared.h            ->         JIT/x86-shared/.h
+jit/x86-shared/Patching-x86-shared.h               ->         JIT/x86-shared/.h
 
 jsapi-tests/tests.h
 jsapi-tests/testJitMinimalFunc.h
@@ -476,158 +377,152 @@ proxy/DeadObjectProxy.h
 proxy/Proxy.h
 proxy/ScriptedProxyHandler.h
 
-<<<<<<< HEAD
-shell/jsoptparse.h                      ->         Shell/.h
-shell/jsshell.h                      ->         Shell/.h
-shell/OSObject.h                      ->         Shell/.h
-=======
-shell/jsoptparse.h
-shell/jsshell.h
-shell/OSObject.h
->>>>>>> e5a5e178928009cfa1905a01fded154f87aca4f0
+shell/jsoptparse.h                                 ->         Shell/.h
+shell/jsshell.h                                    ->         Shell/.h
+shell/OSObject.h                                   ->         Shell/.h
 
-threading/ConditionVariable.h
-threading/CpuCount.h
-threading/ExclusiveData.h
-threading/LockGuard.h
-threading/Mutex.h
-threading/ProtectedData.h
-threading/Thread.h
+threading/ConditionVariable.h                      ->         Threading/.h
+threading/CpuCount.h                               ->         Threading/.h
+threading/ExclusiveData.h                          ->         Threading/.h
+threading/LockGuard.h                              ->         Threading/.h
+threading/Mutex.h                                  ->         Threading/.h
+threading/ProtectedData.h                          ->         Threading/.h
+threading/Thread.h                                 ->         Threading/.h
 
-vm/ArgumentsObject.h
-vm/ArgumentsObject-inl.h
-vm/ArrayBufferObject.h
-vm/ArrayBufferObject-inl.h
-vm/ArrayObject.h
-vm/ArrayObject-inl.h
-vm/AsyncFunction.h
-vm/AsyncIteration.h
-vm/BooleanObject.h
-vm/BooleanObject-inl.h
-vm/Caches.h
-vm/Caches-inl.h
-vm/CodeCoverage.h
-vm/CommonPropertyNames.h
-vm/Compression.h
-vm/DateObject.h
-vm/DateTime.h
-vm/Debugger.h
-vm/Debugger-inl.h
-vm/DebuggerMemory.h
-vm/EnvironmentObject.h
-vm/EnvironmentObject-inl.h
-vm/ErrorObject.h
-vm/ErrorObject-inl.h
-vm/ErrorReporting.h
-vm/GeckoProfiler.h
-vm/GeckoProfiler-inl.h
-vm/GeneratorObject.h
-vm/GlobalObject.h
-vm/HelperThreads.h
-vm/Interpreter.h
-vm/Interpreter-inl.h
-vm/JSONParser.h
-vm/JSONPrinter.h
-vm/List-inl.h
-vm/MallocProvider.h
-vm/MatchPairs.h
-vm/Monitor.h
-vm/MutexIDs.h
-vm/NativeObject.h
-vm/NativeObject-inl.h
-vm/NumberObject.h
-vm/NumberObject-inl.h
-vm/ObjectGroup.h
-vm/ObjectGroup-inl.h
-vm/Opcodes.h
-vm/PIC.h
-vm/PosixNSPR.h
-vm/Printer.h
-vm/Probes.h
-vm/Probes-inl.h
-vm/ProxyObject.h
-vm/ReceiverGuard.h
-vm/ReceiverGuard-inl.h
-vm/RegExpObject.h
-vm/RegExpShared.h
-vm/RegExpStatics.h
-vm/RegExpStaticsObject.h
-vm/Runtime.h
-vm/SavedFrame.h
-vm/SavedStacks.h
-vm/SavedStacks-inl.h
-vm/Scope.h
-vm/SelfHosting.h
-vm/Shape.h
-vm/ShapedObject.h
-vm/ShapedObject-inl.h
-vm/Shape-inl.h
-vm/SharedArrayObject.h
-vm/SharedImmutableStringsCache.h
-vm/SharedImmutableStringsCache-inl.h
-vm/SharedMem.h
-vm/Stack.h
-vm/Stack-inl.h
-vm/Stopwatch.h
-vm/String.h
-vm/StringBuffer.h
-vm/String-inl.h
-vm/StringObject.h
-vm/StringObject-inl.h
-vm/Symbol.h
-vm/TaggedProto.h
-vm/TemplateRegistry.h
-vm/Time.h
-vm/TraceLogging.h
-vm/TraceLoggingGraph.h
-vm/TraceLoggingTypes.h
-vm/TypedArrayObject.h
-vm/TypedArrayObject-inl.h
-vm/TypeInference.h
-vm/TypeInference-inl.h
-vm/UnboxedObject.h
-vm/UnboxedObject-inl.h
-vm/Unicode.h
-vm/UnicodeNonBMP.h
-vm/WrapperObject.h
-vm/Xdr.h
+vm/ArgumentsObject.h                               ->         VM/.h
+vm/ArgumentsObject-inl.h                           ->         VM/.h
+vm/ArrayBufferObject.h                             ->         VM/.h
+vm/ArrayBufferObject-inl.h                         ->         VM/.h
+vm/ArrayObject.h                                   ->         VM/.h
+vm/ArrayObject-inl.h                               ->         VM/.h
+vm/AsyncFunction.h                                 ->         VM/.h
+vm/AsyncIteration.h                                ->         VM/.h
+vm/BooleanObject.h                                 ->         VM/.h
+vm/BooleanObject-inl.h                             ->         VM/.h
+vm/Caches.h                                        ->         VM/.h
+vm/Caches-inl.h                                    ->         VM/.h
+vm/CodeCoverage.h                                  ->         VM/.h
+vm/CommonPropertyNames.h                           ->         VM/.h
+vm/Compression.h                                   ->         VM/.h
+vm/DateObject.h                                    ->         VM/.h
+vm/DateTime.h                                      ->         VM/.h
+vm/Debugger.h                                      ->         VM/.h
+vm/Debugger-inl.h                                  ->         VM/.h
+vm/DebuggerMemory.h                                ->         VM/.h
+vm/EnvironmentObject.h                             ->         VM/.h
+vm/EnvironmentObject-inl.h                         ->         VM/.h
+vm/ErrorObject.h                                   ->         VM/.h
+vm/ErrorObject-inl.h                               ->         VM/.h
+vm/ErrorReporting.h                                ->         VM/.h
+vm/GeckoProfiler.h                                 ->         VM/.h
+vm/GeckoProfiler-inl.h                             ->         VM/.h
+vm/GeneratorObject.h                               ->         VM/.h
+vm/GlobalObject.h                                  ->         VM/.h
+vm/HelperThreads.h                                 ->         VM/.h
+vm/Interpreter.h                                   ->         VM/.h
+vm/Interpreter-inl.h                               ->         VM/.h
+vm/JSONParser.h                                    ->         VM/.h
+vm/JSONPrinter.h                                   ->         VM/.h
+vm/List-inl.h                                      ->         VM/.h
+vm/MallocProvider.h                                ->         VM/.h
+vm/MatchPairs.h                                    ->         VM/.h
+vm/Monitor.h                                       ->         VM/.h
+vm/MutexIDs.h                                      ->         VM/.h
+vm/NativeObject.h                                  ->         VM/.h
+vm/NativeObject-inl.h                              ->         VM/.h
+vm/NumberObject.h                                  ->         VM/.h
+vm/NumberObject-inl.h                              ->         VM/.h
+vm/ObjectGroup.h                                   ->         VM/.h
+vm/ObjectGroup-inl.h                               ->         VM/.h
+vm/Opcodes.h                                       ->         VM/.h
+vm/PIC.h                                           ->         VM/.h
+vm/PosixNSPR.h                                     ->         VM/.h
+vm/Printer.h                                       ->         VM/.h
+vm/Probes.h                                        ->         VM/.h
+vm/Probes-inl.h                                    ->         VM/.h
+vm/ProxyObject.h                                   ->         VM/.h
+vm/ReceiverGuard.h                                 ->         VM/.h
+vm/ReceiverGuard-inl.h                             ->         VM/.h
+vm/RegExpObject.h                                  ->         VM/.h
+vm/RegExpShared.h                                  ->         VM/.h
+vm/RegExpStatics.h                                 ->         VM/.h
+vm/RegExpStaticsObject.h                           ->         VM/.h
+vm/Runtime.h                                       ->         VM/.h
+vm/SavedFrame.h                                    ->         VM/.h
+vm/SavedStacks.h                                   ->         VM/.h
+vm/SavedStacks-inl.h                               ->         VM/.h
+vm/Scope.h                                         ->         VM/.h
+vm/SelfHosting.h                                   ->         VM/.h
+vm/Shape.h                                         ->         VM/.h
+vm/ShapedObject.h                                  ->         VM/.h
+vm/ShapedObject-inl.h                              ->         VM/.h
+vm/Shape-inl.h                                     ->         VM/.h
+vm/SharedArrayObject.h                             ->         VM/.h
+vm/SharedImmutableStringsCache.h                   ->         VM/.h
+vm/SharedImmutableStringsCache-inl.h               ->         VM/.h
+vm/SharedMem.h                                     ->         VM/.h
+vm/Stack.h                                         ->         VM/.h
+vm/Stack-inl.h                                     ->         VM/.h
+vm/Stopwatch.h                                     ->         VM/.h
+vm/String.h                                        ->         VM/.h
+vm/StringBuffer.h                                  ->         VM/.h
+vm/String-inl.h                                    ->         VM/.h
+vm/StringObject.h                                  ->         VM/.h
+vm/StringObject-inl.h                              ->         VM/.h
+vm/Symbol.h                                        ->         VM/.h
+vm/TaggedProto.h                                   ->         VM/.h
+vm/TemplateRegistry.h                              ->         VM/.h
+vm/Time.h                                          ->         VM/.h
+vm/TraceLogging.h                                  ->         VM/.h
+vm/TraceLoggingGraph.h                             ->         VM/.h
+vm/TraceLoggingTypes.h                             ->         VM/.h
+vm/TypedArrayObject.h                              ->         VM/.h
+vm/TypedArrayObject-inl.h                          ->         VM/.h
+vm/TypeInference.h                                 ->         VM/.h
+vm/TypeInference-inl.h                             ->         VM/.h
+vm/UnboxedObject.h                                 ->         VM/.h
+vm/UnboxedObject-inl.h                             ->         VM/.h
+vm/Unicode.h                                       ->         VM/.h
+vm/UnicodeNonBMP.h                                 ->         VM/.h
+vm/WrapperObject.h                                 ->         VM/.h
+vm/Xdr.h                                           ->         VM/.h
 
-vtune/disable_warnings.h
-vtune/ittnotify.h
-vtune/legacy/ittnotify.h
-vtune/ittnotify_config.h
-vtune/ittnotify_static.h
-vtune/ittnotify_types.h
-vtune/jitprofiling.h
-vtune/VTuneWrapper.h
+vtune/disable_warnings.h                           ->         /.h
+vtune/ittnotify.h                                  ->         /.h
+vtune/legacy/ittnotify.h                           ->         /.h
+vtune/ittnotify_config.h                           ->         /.h
+vtune/ittnotify_static.h                           ->         /.h
+vtune/ittnotify_types.h                            ->         /.h
+vtune/jitprofiling.h                               ->         /.h
+vtune/VTuneWrapper.h                               ->         /.h
 
-wasm/AsmJS.h
-wasm/WasmAST.h
-wasm/WasmBaselineCompile.h
-wasm/WasmBinaryConstants.h
-wasm/WasmBinaryIterator.h
-wasm/WasmBinaryToAST.h
-wasm/WasmBinaryToText.h
-wasm/WasmBuiltins.h
-wasm/WasmCode.h
-wasm/WasmCompartment.h
-wasm/WasmCompile.h
-wasm/WasmDebug.h
-wasm/WasmFrameIter.h
-wasm/WasmGenerator.h
-wasm/WasmInstance.h
-wasm/WasmIonCompile.h
-wasm/WasmJS.h
-wasm/WasmModule.h
-wasm/WasmProcess.h
-wasm/WasmSerialize.h
-wasm/WasmSignalHandlers.h
-wasm/WasmStubs.h
-wasm/WasmTable.h
-wasm/WasmTextToBinary.h
-wasm/WasmTextUtils.h
-wasm/WasmTypes.h
-wasm/WasmValidate.h
+wasm/AsmJS.h                                       ->         /WASM/.h
+wasm/WasmAST.h                                     ->         /WASM/.h
+wasm/WasmBaselineCompile.h                         ->         /WASM/.h
+wasm/WasmBinaryConstants.h                         ->         /WASM/.h
+wasm/WasmBinaryIterator.h                          ->         /WASM/.h
+wasm/WasmBinaryToAST.h                             ->         /WASM/.h
+wasm/WasmBinaryToText.h                            ->         /WASM/.h
+wasm/WasmBuiltins.h                                ->         /WASM/.h
+wasm/WasmCode.h                                    ->         /WASM/.h
+wasm/WasmCompartment.h                             ->         /WASM/.h
+wasm/WasmCompile.h                                 ->         /WASM/.h
+wasm/WasmDebug.h                                   ->         /WASM/.h
+wasm/WasmFrameIter.h                               ->         /WASM/.h
+wasm/WasmGenerator.h                               ->         /WASM/.h
+wasm/WasmInstance.h                                ->         /WASM/.h
+wasm/WasmIonCompile.h                              ->         /WASM/.h
+wasm/WasmJS.h                                      ->         /WASM/.h
+wasm/WasmModule.h                                  ->         /WASM/.h
+wasm/WasmProcess.h                                 ->         /WASM/.h
+wasm/WasmSerialize.h                               ->         /WASM/.h
+wasm/WasmSignalHandlers.h                          ->         /WASM/.h
+wasm/WasmStubs.h                                   ->         /WASM/.h
+wasm/WasmTable.h                                   ->         /WASM/.h
+wasm/WasmTextToBinary.h                            ->         /WASM/.h
+wasm/WasmTextUtils.h                               ->         /WASM/.h
+wasm/WasmTypes.h                                   ->         /WASM/.h
+wasm/WasmValidate.h                                ->         /WASM/.h
 
 js/public/CallArgs.h
 js/public/CallNonGenericMethod.h

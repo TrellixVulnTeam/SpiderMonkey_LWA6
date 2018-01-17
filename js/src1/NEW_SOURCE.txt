@@ -1,0 +1,21 @@
+[Root]
+    |-- build               - The supporting build configuration and scripts to build SM.
+    |-- src
+        |-- Backend         - Bytecode definitions.
+        |-- Bytecode        - Classes for bytecode definitions.
+        |-- Docs            - Contains full documentations of SM
+        |-- DS              - Classes and utilities for Data Structures
+        |-- Exceptions      - Classes and utilities for raising exceptions or error handling.
+        |-- GC              - Garbage collector related classes utilities
+        |-- JIT             - Baseline JIT and IonMonkey JITs and support code
+        |-- Library         - JavaScript built-in library implementation.
+        |-- Out             - After building SM, the output and its binaries should be in this directory only.
+        |-- Parser          - Front-end of javascript language and regex parser.
+        |-- Runtime         - Classes and utilities needed during execution.
+        |-- Shell           - The repl.
+        |-- Wasm            - Web assembly implementation
+        |-- 
+    |-- test                - Language-related tests or unit tests.
+        |-- octane          - The octane JS benchmark.
+        |-- jit-test        - JIT related test.
+        |-- tests           - All other tests-related files
